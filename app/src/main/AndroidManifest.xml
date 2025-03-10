@@ -15,12 +15,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Firebase"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".UpdateCourse"
+            android:exported="false"
+            android:label="@string/title_activity_update_course"
+            android:theme="@style/Theme.Firebase" />
         <activity
             android:name=".CourseDetailsActivity"
-            />
-
+            android:exported="false"
+            android:label="@string/title_activity_course_details"
+            android:theme="@style/Theme.Firebase" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
